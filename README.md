@@ -1,6 +1,6 @@
 ## **Overview:**
 
-This capstone project focuses on predicting students academic performance using machine learning techniques. 
+This capstone project focuses on students academic prediction using machine learning techniques. 
 The goal is to understand how various factors—such as previous grades, study time, failures, demographics, alcohol consumption, and absences—impact the final grade (G3).
 
 ## **The project includes:**

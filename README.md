@@ -3,19 +3,19 @@
 This capstone project focuses on predicting students academic performance using machine learning techniques. 
 The goal is to understand how various factors—such as previous grades, study time, failures, demographics, alcohol consumption, and absences—impact the final grade (G3).
 
-The project includes:
+**The project includes:**
 
 * End-to-end ML workflow
 
-* Deep exploratory data analysis
+* Exploratory data analysis
 
-* Outlier treatment
+* Outlier handling
 
-* Feature engineering & preprocessing pipelines
+* Feature engineering & preprocessing
 
 * SMOTE-based class balancing
 
-* Training and comparing 8+ supervised learning models
+* Training and comparing 7 supervised learning models
 
 * GridSearch hyperparameter tuning
 
@@ -126,12 +126,19 @@ Outlier Treatment**
 
 **Modeling & Evaluation**
 
-**Logistic Regression** - **GridsearchCV** Accuracy improved from 67% → 72%.
+**Logistic Regression** -  **GridsearchCV** Accuracy improved from 67% → 75%.
 
-**Decision Tree** - **GridsearchCV** Best params: max_depth=3, min_samples_leaf=3
-**Random Forest** - **GridsearchCV** 
+**Decision Tree** - **GridsearchCV**  Accuracy 76%  Best Performer.
 
+**Random Forest** - **RandomizedsearchCV** Accuracy 66% → 71%
 
+**SVC** - **RandomizedsearchCV** Accuracy 66% → 73%
+
+**KNN** - **RandomizedsearchCV** Accuracy 52% → 65%
+
+**Gradient Boosting** - **RandomizedsearchCV** Accuracy 67% → 71%
+
+**X Gradient Boosting** - **RandomizedsearchCV** Accuracy 61% → 71%
 
 **Evaluations include:**
 
@@ -147,13 +154,12 @@ Outlier Treatment**
 
 **Results**
 
-* Logistic Regression accuracy improved from 67% → 72% after preprocessing + tuning
+* Logistic Regression accuracy improved from 67% → 75% after preprocessing + tuning
 
-* Gradient Boosting and XGBoost delivered the best results overall
+* Logistic Regression & Random Forest delivered the best results overall
 
 * SMOTE significantly improved minority class recalls
 
-* Previous grades (G1, G2) were the strongest predictors of G3
 
 **Technologies Used**
 

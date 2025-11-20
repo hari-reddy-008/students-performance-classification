@@ -1,4 +1,5 @@
-**Overview**
+**Overview:**
+
 This capstone project focuses on predicting students academic performance using machine learning techniques. 
 The goal is to understand how various factors—such as previous grades, study time, failures, demographics, alcohol consumption, and absences—impact the final grade (G3).
 
@@ -122,3 +123,56 @@ Outlier Treatment**
 * SMOTE for Class Balancing
 
 * Balanced final grade classes to prevent bias and improve model learning.
+
+**Modeling & Evaluation**
+
+**Logistic Regression** - **GridsearchCV** Accuracy improved from 67% → 72%.
+
+**Decision Tree** - **GridsearchCV** Best params: max_depth=3, min_samples_leaf=3
+**Random Forest** - **GridsearchCV** 
+
+
+
+**Evaluations include:**
+
+* Accuracy
+
+* Precision
+
+* Recall
+
+* F1-score
+
+* Classification reports
+
+**Results**
+
+* Logistic Regression accuracy improved from 67% → 72% after preprocessing + tuning
+
+* Gradient Boosting and XGBoost delivered the best results overall
+
+* SMOTE significantly improved minority class recalls
+
+* Previous grades (G1, G2) were the strongest predictors of G3
+
+**Technologies Used**
+
+* Python
+
+* Pandas
+
+* NumPy
+
+* Matplotlib & Seaborn
+
+* Scikit-learn
+
+* SMOTE (Imbalanced-learn)
+
+* XGBoost
+
+* Google Colab Notebook
+
+
+
+

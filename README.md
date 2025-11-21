@@ -14,7 +14,7 @@ The goal is to understand how various factors—such as previous grades, study t
 * GridSearch hyperparameter tuning
 * Detailed evaluation metrics
 
-## **The dataset used in this project is the UCI Student Performance Dataset, specifically:**
+## **The dataset used in this project is Student Performance Dataset, specifically:**
 
 * student-mat.csv — Math students dataset
 * Contains demographic, social, academic, and behavioral attributes

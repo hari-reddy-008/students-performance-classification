@@ -78,13 +78,13 @@ The goal is to understand how various factors—such as previous grades, study t
 
 ## **Modeling & Evaluation**
 
-**Logistic Regression** -  **GridsearchCV** Accuracy improved from 67% → 75%.
-**Decision Tree** - **GridsearchCV**  Accuracy 76%  Best Performer.
-**Random Forest** - **RandomizedsearchCV** Accuracy 66% → 71%
-**SVC** - **RandomizedsearchCV** Accuracy 66% → 73%
-**KNN** - **RandomizedsearchCV** Accuracy 52% → 65%
-**Gradient Boosting** - **RandomizedsearchCV** Accuracy 67% → 71%
-**X Gradient Boosting** - **RandomizedsearchCV** Accuracy 61% → 71%
+* **Logistic Regression** -  **GridsearchCV** Accuracy improved from 67% → 75%.
+* **Decision Tree** - **GridsearchCV**  Accuracy 76%  Best Performer.
+* **Random Forest** - **RandomizedsearchCV** Accuracy 66% → 71%
+* **SVC** - **RandomizedsearchCV** Accuracy 66% → 73%
+* **KNN** - **RandomizedsearchCV** Accuracy 52% → 65%
+* **Gradient Boosting** - **RandomizedsearchCV** Accuracy 67% → 71%
+* **X Gradient Boosting** - **RandomizedsearchCV** Accuracy 61% → 71%
 
 ## **Evaluations include:**
 
